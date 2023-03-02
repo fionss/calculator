@@ -3,7 +3,7 @@ import "./style.css";
 
 
 export default function App() {
-  
+  const state [state, dispatch] = useReducer;
 
   return (
     <div className="calculator-grid">
