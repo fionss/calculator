@@ -2,6 +2,14 @@ import React from 'react';
 import { useReducer } from 'react';
 import "./style.css";
 
+const ACTIONS = {
+  ADD_DIGIT: 'add-digit',
+  CHOOSE_OPERATION: 'choose-operation',
+  CLEAR: 'clear',
+  DELETE_DIGIT: 'delete-digit',
+  EVALUATE: 'EVALUATE'
+}
+
 function reducer(state, {type, payload} ) {
 
 }
