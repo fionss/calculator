@@ -1,5 +1,7 @@
 import React from 'react';
 import { useReducer } from 'react';
+import DigiButton from './DigiButton';
+import OperationButton from './OperationButton';
 import './style.css';
 
 const ACTIONS = {
